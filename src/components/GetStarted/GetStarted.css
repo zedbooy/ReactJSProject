@@ -1,22 +1,87 @@
-.inner-container{
-    gap: 1.5rem;
-    background: #4161df;
+/* Container for the entire forum */
+.forum-container {
+    max-width: 800px;
+    margin: 0 auto;
     padding: 2rem;
+    background: #f9f9f9;
     border-radius: 10px;
-    border: 6px solid #5d77d6;
-    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.inner-container .primaryText{
-    color: white;
+/* Header styling */
+.forum-container h1 {
+    text-align: center;
+    color: #4161df;
+    margin-bottom: 2rem;
+}
+
+/* Form styling */
+.forum-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.forum-container form div {
+    display: flex;
+    flex-direction: column;
+}
+
+.forum-container form label {
+    margin-bottom: 0.5rem;
     font-weight: 600;
+    color: #333;
 }
-.inner-container .secondaryText{
-    color: rgba(255, 255, 255, 0.587);
+
+.forum-container form input,
+.forum-container form textarea {
+    padding: 0.75rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
 }
-.inner-container .button {
+
+.forum-container form button {
+    padding: 0.75rem;
     background: #5a73d7;
     border: 2px solid white;
-    box-shadow: var(--shadow);
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
     border-radius: 10px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.forum-container form button:hover {
+    background: #4161df;
+}
+
+/* Client information styling */
+.forum-container .client-info {
+    margin-top: 2rem;
+}
+
+.forum-container .client-info h2 {
+    color: #4161df;
+    margin-bottom: 1rem;
+}
+
+.forum-container .client-info div {
+    background: white;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.forum-container .client-info h3 {
+    margin: 0;
+    color: #333;
+}
+
+.forum-container .client-info p {
+    margin: 0.5rem 0;
+    color: #666;
 }
