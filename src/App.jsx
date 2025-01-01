@@ -7,6 +7,7 @@ import Header from "./components/Header/Header";
 import Hero from "./components/Hero/Hero";
 import Residencies from "./components/Residencies/Residencies";
 import Value from "./components/Value/Value";
+import Test from "./components/GetStarted/test";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
       <Value/>
       <Contact/>
       <GetStarted/>
+      <Test/>
       <Footer/>
     </div>
   );

@@ -3,21 +3,21 @@ import { MdCancel, MdAnalytics } from "react-icons/md";
 const data = [
   {
     icon: <HiShieldCheck/>,
-    heading: "Best interest rates on the market",
+    heading: "Best Riad In Marrakech",
     detail:
-      "Exercitation in fugiat est ut ad ea cupidatat ut in cupidatat occaecat ut occaecat consequat est minim minim esse tempor laborum consequat esse adipisicing eu reprehenderit enim.",
+      "Discover the charm of the best riad in Marrakech, blending traditional Moroccan elegance with modern comfort. Enjoy tranquil courtyards, stunning décor, and unmatched hospitality in the heart of the city.",
   },
   {
     icon: <MdCancel />,
-    heading: "Prevent unstable prices",
+    heading: "Best and Stable prices",
     detail:
-      "Exercitation in fugiat est ut ad ea cupidatat ut in cupidatat occaecat ut occaecat consequat est minim minim esse tempor laborum consequat esse adipisicing eu reprehenderit enim.",
+      "Find the best prices in Marrakech for accommodations, shopping, and dining, offering incredible value without compromising quality. Experience the city’s vibrant souks, cozy riads, and authentic cuisine at unbeatable rates.",
   },
   {
     icon: <MdAnalytics />,
-    heading: "Best price on the market",
+    heading: "Best Client Service",
     detail:
-      "Exercitation in fugiat est ut ad ea cupidatat ut in cupidatat occaecat ut occaecat consequat est minim minim esse tempor laborum consequat esse adipisicing eu reprehenderit enim.",
+      "Experience the best client service in Marrakech, where hospitality meets excellence. Enjoy personalized attention, warm welcomes, and unforgettable moments crafted to perfection.",
   },
 ];
 export default data;
