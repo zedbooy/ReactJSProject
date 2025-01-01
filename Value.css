@@ -1,0 +1,87 @@
+.v-container .image-container {
+  border: 8px solid rgb(232 232 232 / 93%);
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.v-container .image-container:hover {
+  transform: scale(1.05); /* Slight zoom-in effect */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Add shadow on hover */
+}
+
+.v-container > div {
+  flex: 1;
+  transition: transform 0.3s ease-in-out;
+}
+
+.v-container > div:hover {
+  transform: translateY(-5px); /* Slight lift effect */
+}
+
+.v-right {
+  gap: 0.5rem;
+}
+
+.accordion {
+  margin-top: 2rem;
+  border: none;
+  transition: all 0.3s ease-in-out;
+}
+
+.accordionItem {
+  background: white;
+  border: 0.8px solid rgba(128, 128, 128, 0.143);
+  border-radius: 8px;
+  overflow: hidden;
+  margin-bottom: 20px;
+  transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.accordionItem.expanded {
+  box-shadow: var(--shadow);
+  border-radius: 6px;
+  transform: scale(1.02); /* Slight zoom-in effect when expanded */
+}
+
+.accordionButton {
+  background: white;
+  padding: 1rem;
+  width: 100%;
+  justify-content: space-between;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.accordionButton:hover {
+  background-color: #f0f0f0; /* Light grey background on hover */
+}
+
+.icon {
+  padding: 10px;
+  background: #eeeeff;
+  border-radius: 5px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.icon svg {
+  fill: var(--blue);
+}
+
+.icon:hover {
+  transform: rotate(20deg); /* Slight rotation on hover */
+}
+
+.accordionButton .primaryText{
+    font-size: 1.1rem;
+}
+
+@media (max-width: 1024px) {
+    .v-container{
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 768px) {
+    .accordionButton .primaryText{
+        font-size: .8rem;
+    }
+}

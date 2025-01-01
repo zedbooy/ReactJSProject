@@ -1,0 +1,60 @@
+.f-container {
+  justify-content: space-between;
+  transition: all 0.3s ease-in-out;
+}
+
+.f-container:hover {
+  transform: translateY(-5px); /* Slight lift effect on hover */
+}
+
+.f-left {
+  gap: 1rem;
+  transition: transform 0.3s ease-in-out;
+}
+
+.f-left:hover {
+  transform: scale(1.05); /* Slight zoom-in effect on hover */
+}
+
+.f-menu {
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+  font-weight: 500;
+  transition: color 0.3s ease-in-out;
+}
+
+.f-menu a {
+  transition: color 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.f-menu a:hover {
+  color: lightblue; /* Change to your preferred color */
+  transform: scale(1.1); /* Zoom in effect on hover */
+}
+
+.f-menu button {
+  background: none;
+  border: none;
+  color: inherit;
+  font: inherit;
+  cursor: pointer;
+  transition: color 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.f-menu button:hover {
+  color: lightblue; /* Change to your preferred color */
+  transform: scale(1.1); /* Zoom in effect on hover */
+}
+
+@media (max-width: 768px) {
+  .f-container {
+    justify-content: center;
+  }
+  .f-container > div {
+    align-items: center !important;
+    text-align: center;
+  }
+  .f-right {
+    justify-content: center;
+  }
+}
