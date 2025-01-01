@@ -80,7 +80,7 @@ const Contact = () => {
         {/* right side */}
         <div className="flexEnd c-right">
           <div className="image-container">
-            <img src="/hero-image.png" alt="" />
+            <img src="./hero-image.png" alt="" />
           </div>
         </div>
       </div>

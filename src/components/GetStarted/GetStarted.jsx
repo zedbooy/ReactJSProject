@@ -9,8 +9,11 @@ const GetStarted = () => {
           <span className="secondaryText">
             Subscribe and find super attractive price quotes from us.
             <br />
-            Find your residence soon
+            Find your riad soon
           </span>
+          <button className="button" href>
+            <a href="./test.html">Get Started</a>
+          </button>
         </div>
       </div>
     </div>
