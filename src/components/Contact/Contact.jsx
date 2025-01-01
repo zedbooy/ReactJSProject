@@ -55,7 +55,7 @@ const Contact = () => {
                   </div>
                   <div className="flexColStart detail">
                     <span className="primaryText">Video Call</span>
-                    <span className="secondaryText">021 123 145 14</span>
+                    <span className="secondaryText">06 06060606</span>
                   </div>
                 </div>
                 <div className="flexCenter button">Video Call now</div>
@@ -80,7 +80,7 @@ const Contact = () => {
         {/* right side */}
         <div className="flexEnd c-right">
           <div className="image-container">
-            <img src="./contact.jpg" alt="" />
+            <img src="./hero-image.png" alt="" />
           </div>
         </div>
       </div>

@@ -1,38 +1,38 @@
 [
   {
-    "name": "Aliva Priva Jardin",
+    "name": "Riad Brummell",
     "price": "47,043",
-    "detail": "Jakarta Garden City Street, Cakung. Pulo Gadung, Jakarta Timur, DKI Jakarta",
+    "detail": "The property is 2 km from Bahia Palace and a 5-minute walk",
     "image": "./r1.png"
   },
   {
-    "name": "Asatti Garden City",
+    "name": "Dar Darma",
     "price": "66,353",
-    "detail": "Pahlawan Street XVII No.215, Cinangka, Sawangan, Depok, Jawa Barat",
+    "detail": "500 metres from Le Jardin Secret and 500 metres from the centre",
     "image": "./r2.png"
   },
   {
-    "name": "Citralan Puri Serang",
+    "name": "Riad Itrane",
     "price": "35,853",
-    "detail": "Ruko Puri Indah Residence Block A7, Lingkar Street, Ciracas, Serang, Banten",
+    "detail": "Located at 2-minute walking from Jamaâ El Fna square, in a safe and quiet street",
     "image": "./r3.png"
   },
   {
-    "name": "Aliva Priva Jardin",
+    "name": "Riad Brummell",
     "price": "47,043",
-    "detail": "Jakarta Garden City Street, Cakung. Pulo Gadung, Jakarta Timur, DKI Jakarta",
+    "detail": "The property is 2 km from Bahia Palace and a 5-minute walk",
     "image": "./r1.png"
   },
   {
     "name": "Asatti Garden City",
     "price": "66,353",
-    "detail": "Pahlawan Street XVII No.215, Cinangka, Sawangan, Depok, Jawa Barat",
+    "detail": "Located in Marrakech, 100 metres from Le Jardin Secret and 200 metres from the centre, Riad Brummell Medina provides air-conditioned",
     "image": "./r2.png"
   },
   {
-    "name": "Citralan Puri Serang",
+    "name": "Riad Itrane",
     "price": "35,853",
-    "detail": "Ruko Puri Indah Residence Block A7, Lingkar Street, Ciracas, Serang, Banten",
+    "detail": "Located at 2-minute walking from Jamaâ El Fna square, in a safe and quiet street",
     "image": "./r3.png"
   }
 ]
